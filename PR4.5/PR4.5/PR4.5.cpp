@@ -19,8 +19,8 @@ int main()
 	cout << endl << fixed;
 	for (int i = 0; i < 10; i++)
 	{
-		x = 6. * rand() / RAND_MAX - 3;
-		y = 6. * rand() / RAND_MAX - 3;
+		x = 4. * rand() / RAND_MAX - 2;
+		y = 4. * rand() / RAND_MAX - 2;
 		if ((y <= x && y <= -pow(x, 2) + 2 && y >= 0) ||
 			(y <= -pow(x, 2) + 2 && y <= 0 && y >= x))
 			cout << setw(8) << setprecision(4) << x << " "
